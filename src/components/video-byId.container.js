@@ -6,10 +6,6 @@ import {setToBl} from '../actions/videoActions';
 
 class DisplayVideoId extends Component {
 
-// componentDidMount(){
-//   this.forceUpdate()
-// }
-
 logthis(id){
   console.log(id);
 }
@@ -51,7 +47,7 @@ logthis(id){
     );
   }
 }
-// this.props.setToBl(video.id)
+
 function mapStateToProps(state) {
     return{
       videoId: state.videoId,

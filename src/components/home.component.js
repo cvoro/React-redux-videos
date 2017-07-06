@@ -19,9 +19,6 @@ class Home extends Component {
   }
 }
 
-// Its home bae
-// <button onClick={() => this.props.fetchVideos()}>click</button>
-
 function mapStateToProps(state) {
     return{
       videos: state.videos

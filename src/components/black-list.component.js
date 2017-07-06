@@ -25,7 +25,7 @@ class BlackList extends Component {
 
       )
     })
-    
+
     return (
       <div className="BlackList">
       <div className="row">
